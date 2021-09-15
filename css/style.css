@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Karantina&family=Dosis:wght@500&family=Karantina&display=swap');
+:root {
+    --headings: #1a004d;
+    --text: #280078;
+    --background: #c7aaff;
+    --headings-font-family: 'Karantina', cursive;
+    --text-font-family: 'Dosis', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+    text-align: center;
+    font-family: var(--text-font-family);
+    color: var(--text);
+}
+
+h2 {
+    color: var(--headings);
+    font-family: var(--headings-font-family);
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted var(--text) 16px;
+    border-bottom: none;
+    margin: 5rem auto;
+    width: 10%;
+}
+
+.imgrecipe-row{
+    width: 50%;
+    text-align: left;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.meatballs-img {
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+}
