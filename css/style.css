@@ -20,16 +20,16 @@ body {
     color: var(--text);
 }
 
+.main {
+    width: 75%;
+    margin: 0 auto;
+}
+
 h2 {
     color: var(--headings);
     font-family: var(--headings-font-family);
     font-size: 2.5rem;
     padding-bottom: 1rem;
-
-}
-
-p {
-    line-height: 2;
 }
 
 hr {
@@ -39,15 +39,35 @@ hr {
     width: 10%;
 }
 
+p {
+    line-height: 2;
+}
+
+.imgrecipe {
+    text-align: left;
+    margin: 7rem auto;
+    overflow: hidden;
+}
+
 .imgrecipe-row{
     width: 50%;
     text-align: left;
     margin: 2rem auto;
-    overflow: hidden;
+    
 }
 
 .meatballs-img {
     width: 25%;
     float: left;
     margin-right: 2rem;
+}
+
+.making {
+    text-align: left;
+    margin-left:10rem;
+}
+
+.making-row {
+    text-align: left;
+    margin-left: 10rem;
 }
